@@ -11,7 +11,7 @@
 :root {
   --cor00: #ccaaff;
   --cor0: #b380ff;
-  --cor1: #9955ff;  
+  --cor1: #9955ff;
   --cor2: #7f2aff;
   --cor3: #6600ff;
   --cor4: #5500d4;
@@ -25,6 +25,7 @@
   --fonte3: 'Sriracha', cursive;
 
 }
+
 
 ul > a {
  
@@ -62,6 +63,10 @@ ul > a:hover {
   opacity: .8;
 }
 
+#link-topo:hover{
+  opacity: 1;
+  box-shadow: none;
+}
 
 #link-topoT {
   
@@ -70,24 +75,22 @@ ul > a:hover {
   background-color: rgba(255, 255, 255, 0.034);
   padding: 20px;
   position: fixed;
-  right: 10px;
-  top: 20px;
+  left: 10px;
+  top: 230px;
   border-radius: 50%;
   box-shadow: none;
-  opacity: .8;
+  opacity: .9;
 }
 
 #link-topoT:hover{
   opacity: 1;
   box-shadow: none;
-  right: 5px;
-  top: 25px;
 }
 
 #link-topoT  > img {
-  width: 52px;
+  width: 50px;
   margin: 0px;
-  border-radius: 20%;
+  border-radius: 50%;
   background-color: rgba(0, 0, 255, 0);
   margin-top: -50px;
   margin-left: 10px;
@@ -109,178 +112,6 @@ ul > a:hover {
 
 
 
-
-
-
-#link-topoT2 {
-  
-  text-decoration: none;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.034);
-  padding: 20px;
-  position: fixed;
-  right: 10px;
-  top: 80px;
-  border-radius: 50%;
-  box-shadow: none;
-  opacity: .8;
-}
-
-#link-topoT2:hover{
-  opacity: 1;
-  box-shadow: none;
-  right: 5px;
-  top: 85px;
-}
-
-#link-topoT2  > img {
-  width: 50px;
-  margin: 0px;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 255, 0);
-  margin-top: -50px;
-  margin-left: 10px;
-  box-shadow: 8px 5px 2px rgba(0, 0, 0, 0.445);
-  box-sizing: border-box;
-  
-}
-
-#link-topoT2 > img:hover{
-  
-  margin-left: 15px;
-  box-shadow: none;
-}
-
-
-
-
-
-#link-topoT3 {
-  
-  text-decoration: none;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.034);
-  padding: 20px;
-  position: fixed;
-  right: 10px;
-  top: 125px;
-  border-radius: 20%;
-  box-shadow: none;
-  opacity: .7;
-}
-
-#link-topoT3:hover{
-  opacity: 1;
-  box-shadow: none;
-  right: 5px;
-  top: 130px;
-}
-
-#link-topoT3  > img {
-  width: 50px;
-  margin: 0px;
-  border-radius: 20%;
-  background-color: rgba(0, 0, 255, 0);
-  margin-top: -50px;
-  margin-left: 10px;
-  box-shadow: 8px 5px 2px rgba(0, 0, 0, 0.445);
-  box-sizing: border-box;
-  
-}
-
-#link-topoT3 > img:hover{
-  
-  margin-left: 15px;
-  box-shadow: none;
-}
-
-
-
-#link-topoT4 {
-  
-  text-decoration: none;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.034);
-  padding: 20px;
-  position: fixed;
-  right: 10px;
-  top: 185px;
-  border-radius: 50%;
-  box-shadow: none;
-  opacity: .8;
-}
-
-#link-topoT4:hover{
-  opacity: 1;
-  box-shadow: none;
-  right: 5px;
-  top: 190px;
-}
-
-#link-topoT4  > img {
-  width: 50px;
-  margin: 0px;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 255, 0);
-  margin-top: -50px;
-  margin-left: 10px;
-  box-shadow: 8px 5px 2px rgba(0, 0, 0, 0.445);
-  box-sizing: border-box;
-  
-}
-
-#link-topoT4 > img:hover{
-  
-  margin-left: 15px;
-  box-shadow: none;
-}
-
-
-
-
-
-#link-topoT5 {
-  
-  text-decoration: none;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.034);
-  padding: 20px;
-  position: fixed;
-  right: 10px;
-  top: 245px;
-  border-radius: 50%;
-  box-shadow: none;
-  opacity: .8;
-}
-
-#link-topoT5:hover{
-  opacity: 1;
-  box-shadow: none;
-  right: 5px;
-  top: 250px;
-}
-
-#link-topoT5  > img {
-  width: 50px;
-  margin: 0px;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 255, 0);
-  margin-top: -50px;
-  margin-left: 10px;
-  box-shadow: 8px 5px 2px rgba(0, 0, 0, 0.445);
-  box-sizing: border-box;
-  
-}
-
-#link-topoT5 > img:hover{
-  
-  margin-left: 15px;
-  box-shadow: none;
-}
-
-
-
-
 #fixo {
   
   color: white;
@@ -294,15 +125,12 @@ ul > a:hover {
   opacity: .7;
 }
 
-#link-topo:hover{
-  opacity: 1;
-  box-shadow: none;
-}
-
 #fixo:hover{
   opacity: 1;
   box-shadow: none;
 }
+
+
 
 section#omenuO > a > img {
   width: 50px;
@@ -405,14 +233,6 @@ menu {
   box-shadow: 0px 5px 7px #0000009d;
   background-color: var(--cor6);
   padding: 2px;
-}
-
-#itensM {
-  position: fixed;
- opacity: .8;
-}
-#itensM:hover {
-  opacity: 1;
 }
 
 menu > ul {
@@ -724,29 +544,6 @@ section.ss#fotos2a {
   border-radius: 30px 0px;
   padding: 15px;
   max-width: 600px;
-  margin: left;
-  margin-top: 30px;
-  box-shadow: 5px 5px 5px rgba(145, 207, 136, 0.555);
-}
-
-section.ss#fotos2b {
-  color: rgb(37, 28, 28);
-  background-color: var(--cor0);
-  border-radius: 30px 0px;
-  padding: 15px;
-  max-width: 730px;
-  margin: left;
-  margin-top: 30px;
-  box-shadow: 5px 5px 5px rgba(145, 207, 136, 0.555);
-}
-
-
-section.ss#fotos4 {
-  color: rgb(37, 28, 28);
-  background-color: var(--cor0);
-  border-radius: 30px 0px;
-  padding: 15px;
-  max-width: 750px;
   margin: left;
   margin-top: 30px;
   box-shadow: 5px 5px 5px rgba(145, 207, 136, 0.555);
